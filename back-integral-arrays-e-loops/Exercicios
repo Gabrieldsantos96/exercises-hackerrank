@@ -1,0 +1,68 @@
+const nomes = ["João", "Abreu", "Aline", "Fabricio", "Erica",];
+
+for (let n of nomes) {
+  console.log(n);
+}
+
+let x = 1;
+
+while (x <= 10) {
+  console.log(x);
+  x++;
+}
+
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+const palavra = "alemanha";
+let encontrado = false;
+
+for (let letra of palavra) {
+  if (letra === "h") {
+    encontrado = true;
+    console.log("Tem a letra H");
+  }
+}
+if (!encontrado) {
+  console.log("Não tem a letra H");
+}
+let x = 10;
+while (x < 1) {
+  console.log(x);
+  x--;
+}
+
+
+const palavra = "gospel";
+let bank = 0;
+let encontrado = false;
+
+for (let letra of palavra) {
+  if (letra === "h") {
+    encontrado = true;
+    bank++;
+  }
+} if (bank === 0) {
+  console.log("Não tem a letra H");
+} else if (bank === 1) {
+  console.log("Foi encontrada a letra H apenas uma vez");
+} else {
+  console.log(`Foi encontrada a letra H '${bank} 'vezes`);
+}
+
+let x = 2;
+while (x <= 50) {
+  console.log(x);
+  x += 2;
+}
+
+const nomes = ["João", "Abreu", "Aline", "Fabricio", "Erica",];
+
+for (let i = 0; i < nomes.length; i++) {
+  const item = nomes[i];
+
+  if (item == "João") {
+    console.log(`${i}`);
+  }
+}
